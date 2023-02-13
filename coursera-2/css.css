@@ -1,0 +1,119 @@
+*{
+    padding:0%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.head
+{
+    background-color: grey;
+    font-size: 35px;
+    padding: 15px;
+}
+.fas{
+    float: right;
+}
+.aa{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+h2{
+    text-align: center;
+    padding-top: 10px;
+    background-color: gray;
+}
+p{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 19px;
+}
+.class{
+    background-color: gray;
+    width: auto;
+    height: fit-content;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+.class1{
+    background-color: gray;
+    width: auto;
+    height: fit-content;
+    margin: 20px;
+    margin-bottom: 40px;
+
+}
+.class2{
+    background-color: gray;
+    width: auto;
+    height: fit-content;
+    margin: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: none;
+}
+@media (max-width:768px){
+    .aa{
+        text-align: center;
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .class{
+        background-color: gray;
+        width: fit-content;
+        height: fit-content;
+        margin: 20px;
+        margin-bottom: 40px;
+    }
+    .class1{
+        background-color: gray;
+        width: fit-content;
+        height: fit-content;
+        margin: 20px;
+        margin-bottom: 40px;
+    
+    }
+    .class2{
+        background-color: gray;
+        width: fit-content;
+        height: fit-content;
+        margin: 20px;
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.877);
+    }
+    .menu ul li{
+        display: block;
+        text-align: center;
+        margin-bottom: 8px;
+        line-height: 30px;
+}
+.menu ul li a:hover{
+    color: gray;
+}
+.menu ul{
+    flex-direction: column;
+    left: 20%;
+}
+.checkbtn{
+    display: block;
+}
+ul{
+    width: auto;
+    border: 2px solid black;
+    transition: all .5s;
+    
+}
+
+}
